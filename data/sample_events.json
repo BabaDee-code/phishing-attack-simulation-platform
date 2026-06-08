@@ -1,0 +1,7 @@
+[
+  {"user_id": "U001", "campaign_id": "Q1-AWARENESS", "event_type": "opened"},
+  {"user_id": "U001", "campaign_id": "Q1-AWARENESS", "event_type": "clicked"},
+  {"user_id": "U002", "campaign_id": "Q1-AWARENESS", "event_type": "reported"},
+  {"user_id": "U003", "campaign_id": "Q1-AWARENESS", "event_type": "training_completed"},
+  {"user_id": "U004", "campaign_id": "Q1-AWARENESS", "event_type": "clicked"}
+]
