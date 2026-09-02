@@ -34,8 +34,10 @@ python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\\Scripts\\activate
 pip install -r requirements-dev.txt
 pytest -q
-python -m phish_sim.report data/sample_events.json
+PYTHONPATH=src python -m phish_sim.report data/sample_events.json
 ```
+
+On Windows PowerShell, use `$env:PYTHONPATH = "src"` before the final command.
 
 ## Example metrics
 
